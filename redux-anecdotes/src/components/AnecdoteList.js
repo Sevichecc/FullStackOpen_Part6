@@ -9,9 +9,11 @@ import {
 const AnecdoteList = () => {
   const dispatch = useDispatch()
   const anecdotes = useSelector((state) => {
-    return state.filter === 'ALL'
-      ? state.anecdotes
-      : state.anecdotes.filter((a) => a.content.includes(state.filter))
+    const filteredAnecdotes =
+      state.filter === 'ALL'
+        ? state.anecdotes
+        : state.anecdotes.filter((a) => a.content.includes(state.filter))
+    return [...filteredAnecdotes].sort((a, b) => b.votes - a.votes)
   })
 
   const handleVote = ({ id, content }) => {
