@@ -8,6 +8,8 @@ const notificationReducer = (state, action) => {
       return action.message + ' voted'
     case 'CLEAR':
       return ''
+    case 'ERROR':
+      return action.message;
     default:
       return action.message
   }
