@@ -1,33 +1,13 @@
 {
   "anecdotes": [
     {
-      "updatedAnecdote ": "> axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].put(`${baseUrl}/${updatedAnecdote.id}`, updateAnecdote).then(res => res.data)",
-      "id": "47145"
-    },
-    {
-      "updatedAnecdote ": "> axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].put(`${baseUrl}/${updatedAnecdote.id}`, updateAnecdote).then(res => res.data)",
-      "id": "21149"
-    },
-    {
-      "updatedAnecdote ": "> axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].put(`${baseUrl}/${updatedAnecdote.id}`, updateAnecdote).then(res => res.data)",
-      "id": "69581"
-    },
-    {
-      "updatedAnecdote ": "> axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].put(`${baseUrl}/${updatedAnecdote.id}`, updateAnecdote).then(res => res.data)",
-      "id": "36975"
-    },
-    {
-      "updatedAnecdote ": "> axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].put(`${baseUrl}/${updatedAnecdote.id}`, updateAnecdote).then(res => res.data)",
-      "id": "25170"
-    },
-    {
       "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
       "id": "98312",
-      "votes": 3
+      "votes": 13
     },
     {
       "content": "DDDDD",
-      "votes": 0,
+      "votes": 1,
       "id": "PsE8kV3"
     }
   ]
